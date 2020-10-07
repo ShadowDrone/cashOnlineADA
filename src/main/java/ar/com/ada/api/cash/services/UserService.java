@@ -30,7 +30,7 @@ public class UserService extends GenericService<User> {
 
         boolean userExists = exists(email);
 
-        if (userExists) {
+        if (!userExists) {
 
             this.create(user);
             return user;

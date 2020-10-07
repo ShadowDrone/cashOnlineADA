@@ -13,7 +13,7 @@ import ar.com.ada.api.cash.models.responses.*;
 import ar.com.ada.api.cash.entities.*;
 import java.util.*;
 
-@Controller
+@RestController
 public class UserController {
 
     @Autowired
